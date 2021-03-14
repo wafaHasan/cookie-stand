@@ -1,9 +1,89 @@
 
+* {
+  box-sizing: border-box;
+}
 table tr, td, th {
     border: 1px solid black;
-    width: 70px;
-    height: 60px;
+    height: 30px;
     padding: 10px;
+    border: 1px solid white;
+  }
+
+  #enterCountry {
+      text-transform: capitalize;
+
+  }
+
+  table {
+    width: 700px;
+    border: 1px solid white;
     border-collapse: collapse;
+  }
+
+  body{
+
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/1/15/Castle_reflecting_in_the_water_by_Gustave_Le_Gray.jpg);
+    background-repeat: no-repeat ;
+    background-size:cover;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  input {
+    display: block;
+  }
+
+  fieldset {
+    width: 200px;
+    height: fit-content;
+  }
+
+  header {
+    color: white;
+    background-color: black;
+    opacity: 70%;
+    border-bottom: 1px solid white;
+    text-align: center;
+    padding-top: 0.02px;
+    padding-bottom: 0.02px;
+    margin-bottom: 20px;
+    margin-top: -7px;
+    margin-left: -5px;
+  }
+
+  main{
+    display: inline;
+    display: grid;
+    grid-template-columns: 20%  80%;
+    gap: 20px;
+    padding-left: 50px;
+
+
+  }
+
+  .div1 {
+    float: left;
+    background-color: black;
+    opacity: 90%;
+    color: white;
+    padding: 20px;
+    margin-top: 40px;
+    text-align: center;
+    width: 250px;
+    height: fit-content;
+  }
+  
+
+  .div2 {
+    float: right;
+    background-color: black;
+    opacity: 90%;
+    padding: 20px;
+
+    color: white;
+    width: fit-content;
+    margin-top: 40px;
+  }
+
+  #myForm {
+    width: 300px;
   }
 
